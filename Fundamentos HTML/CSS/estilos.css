@@ -1,0 +1,15 @@
+h2 {
+    color: rgb(41, 0, 107);
+}
+img {
+    max-width: 200px;
+    height: auto;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(31, 24, 34);
+    font-size: 20px;
+}

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="En esta pagina estamos aprendiendo HTML con el profe Marcos">
+    <title>Repasando HTML</title>
+   <link rel="stylesheet" href="CSS/estilos.css">
+   <style>
+    body {
+        background-color: rgb(196, 187, 187);
+    }
+   </style>
+</head>
+<body>
+    <h1 id="inicio">Aprendiendo HTML</h1>
+    <p>Hola, escribiendo mi primer documento HTML</p>
+<hr>
+
+<ul>
+    <li><a href="index.html#Tipos-de-encabezados">Tipos de encabezados</a></li>
+    <li><a href="index.html#Etiquetas-de-texto">Etiquetas de texto</a></li>
+    <li><a href="index.html#Etiquetas-de-texto-semanticas">Etiquetas de texto semanticas</a></li>
+    <li><a href="index.html#Etiquetas-de-saltos">Etiquetas de saltos</a></li>
+    <li><a href="index.html#Etiquetas-de-formateo">Etiquetas de formateo</a></li>
+    <li><a href="index.html#Etiquetas-semanticas-estructurales">Etiquetas semanticas estructurales</a></li>
+    <li><a href="index.html#Etiquetas-de-bloque-VS-etiquetas-de-linea">Etiquetas de bloque VS etiquetas de linea</a></li>
+    <li><a href="index.html#Imagenes">Imagenes</a></li>
+    <li><a href="index.html#Figuras">Figuras</a></li>
+    <li><a href="index.html#Listas-ordenadas">Listas ordenadas</a></li>
+    <li><a href="index.html#Listas-desordenadas">Listas desordenadas</a></li>
+    <li><a href="index.html#Enlaces">Enlaces</a></li>
+    <li><a href="index.html#Elementos-interactivos">Elementos Interactivos</a></li>
+    <li><a href="index.html#Audio-video">Audio y video</a></li>
+    <li><a href="index.html#Iframes">Iframes</a></li>
+    <li><a href="index.html#Formularios">Formularios</a></li>
+    <li><a href="index.html#atributos-de-formularios">Atributos de formularios</a></li>
+</ul>
+    <h2 id="Tipos-de-encabezados">Tipos de encabezados</h2>
+    <H1>Encabezado de nivel 1</H1><!--Solo se escribe uno por documento HTML-->
+    <H2>Encabezado de nivel 2</H2><!--Este se usa para subtitulos-->
+    <H3>Encabezado de nivel 3</H3>
+    <H4>Encabezado de nivel 4</H4>
+    <H5>Encabezado de nivel 5</H5>
+    <H6>Encabezado de nivel 6</H6>
+
+    <a href="index.html#inicio">👆</a>
+<hr>
+<h2 id="Etiquetas-de-texto">Etiquetas de texto</h2>
+    <p>
+        Palabrtas en: <b>Negrita</b>, <i>Cursiva</i>, <u>Subrayado</u>, e=mc <sup>2</sup>, H <sub>2</sub>0, <mark>Texto resaltado</mark>, <small>Letras pequeñas</small>
+    </p>
+
+    <a href="index.html#inicio">👆</a>
+<hr>
+<h2 id="Etiquetas-de-texto-semanticas">Etiquetas de texto semanticas</h2>    
+    <p>
+        <strong>Este texto es importante</strong>,
+        <em>Este texto hace enfasis</em>
+    </p>
+    <blockquote>Solo se que no se nada</blockquote>
+    <cite>Socrates</cite>
+    <br>
+
+    <a href="index.html#inicio">👆</a>
+<hr>
+<h2 id="Etiquetas-de-saltos">Etiquetas de saltos</h2> 
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Ipsa quam repellendus molestias provident vel! <br> Odio quas beatae iure quisquam ducimus vero. <br><br> commodi autem porro maxime minus quis, dolore corrupti iusto?</p>
+
+    <a href="index.html#inicio">👆</a>
+    <hr>
+<h2 id="Etiquetas-de-formateo">Etiquetas de formateo</h2>
+<pre>
+<p>Tareas para hacer:
+    En el curso:
+    -No faltar.
+    -Repasar en casa.
+    -Practicar ejercicios.
+    En la casa:
+    -Cortar el pasto.
+    -Hacer las compras.
+    -Pagar las cuentas.
+</p>
+</pre>
+<p>
+    <code>Este texto esta en formato de codigo</code>
+</p>
+ <pre>
+    <code>
+        funcion clearScreen() {
+            document.getElementById("Respuesta").
+            value = "";
+        }
+    </code>
+ </pre>
+
+ <a href="index.html#inicio">👆</a>
+<hr>
+
+<h2 id="Etiquetas-semanticas-estructurales">Etiquetas semanticas estructurales</h2>
+<div style="background-color: aqua;">DIV: Es una etiqueta contenedora que no tiene semantica</div>
+<header style="background-color: aquamarine;">HEADER: cabecera de un sitio web o una seccion</header>
+<main style="background-color: azure;">MAIN: define la seccion principal del documento, solo puede existir una por documento</main>
+<footer style="background-color:blue;">FOOTER: pie de pagina de un sitio web o una seccion</footer>
+<nav style="background-color: beige;">NAV: representa un menu de navegacion</nav>
+<article style="background-color: burlywood;">ARTICLE: representa una seccion de autocontenido (que por si sola se xplica)</article>
+<aside style="background-color: chocolate;">ASIDE: representa una seccion de autocontenido (que por si sola se explica)</aside>
+<section style="background-color: coral;">SECTION: representa una seccion de contenido generico</section>
+<address style="background-color: white;">ADRESS: representa una direccion fisica</address>
+
+<a href="index.html#inicio">👆</a>
+<hr>
+
+<h2 id="Etiquetas-de-bloque-VS-etiquetas-de-linea">Etiquetas de bloque vs Etiquetas de linea</h2>
+<div style="background-color: blueviolet;">La etiqueta de bloque por exelencia es la DIV</div>
+<span style="background-color: blue;">La etiqueta de linea por exelencia es la SPAN</span>
+<span>Hola soy otra SPAN</span>
+<br>
+
+<a href="index.html#inicio">👆</a>
+<hr>
+
+<h2 id="Imagenes">Imagenes</h2>
+<img src="IMG/mario.png" alt="mario sin fondo">
+<img src="IMG/paisajes.jpg" alt="paisaje">
+<br>
+
+<a href="index.html#inicio">👆</a>
+<hr>
+
+<h2 id="Figuras">Figuras</h2>
+<figure>
+    <img src="IMG/paisajes.jpg" alt="paisaje">
+    <figcaption>paisaje re flay</figcaption>
+</figure>
+<br><br>
+
+<a href="index.html#inicio">👆</a>
+<hr>
+
+<h2 id="Listas-ordenadas">Listas ordenadas</h2>
+<h3>Estaciones del año</h3>
+<ol>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+</ol>
+<ol start="6">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+</ol>
+<ol reversed>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+</ol>
+<ol type="I">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+    </ol>
+
+    <a href="index.html#inicio">👆</a>
+<hr>
+
+<h2 id="Listas-desordenadas">Listas desordenadas</h2>
+<h3>Cosas por hacer</h3>
+<ul>
+    <li>Enviar informes 1º trimestre</li>
+    <li>Terminar PPT del modulo 3</li>
+    <li>Corregir evaluaciones</li>
+    <li>Entregar trabajo final del curso de IA</li>
+</ul>
+<ul  type="circle">
+    <li>Enviar informes 1º trimestre</li>
+    <li>Terminar PPT del modulo 3</li>
+    <li>Corregir evaluaciones</li>
+    <li>Entregar trabajo final del curso de IA</li>
+</ul>
+<ul type="square">
+    <li>Enviar informes 1º trimestre</li>
+    <li>Terminar PPT del modulo 3</li>
+    <li>Corregir evaluaciones</li>
+    <li>Entregar trabajo final del curso de IA</li>
+</ul>
+
+<a href="index.html#inicio">👆</a>
+<hr>
+
+<h2 id="Tablas">Tablas</h2>
+<table>
+    <tr>
+        <td>PAÍS</td>
+        <td>CAPITAL</td>
+        <td>CONTINENTE</td>
+    </tr>
+    <tr>
+        <td>Japón</td>
+        <td>Tokio</td>
+        <td>Asia</td>
+    </tr>
+    <tr>
+        <td>Francia</td>
+        <td>Paris</td>
+        <td>Europa</td>
+    </tr>
+    <tr>
+        <td>Canadá</td>
+        <td>Otawa</td>
+        <td>América</td>
+    </tr>
+</table>
+
+<a href="index.html#inicio">👆</a>
+<hr>
+
+<h2 id="Enlaces">Enlaces</h2>
+<a href="nuevo-documento.html">Enlace</a>
+<br>
+<a href="http://tecnologiaeducativaargentina.blogspot.com/" target=_blank rel="nofollow">Visita mi sitio web</a>
+<br>
+<a href="https://web.whatsapp.com/" target="_blank"><img src="IMG/580b57fcd9996e24bc43c543.png" alt="Esta imagen abre mi whatsapp" width="50" height="50"></a>
+<br>
+<a href="mailto:hectoremanuelbarros@gmail.com">Enlace a correo electronico</a>
+<br>
+<a href="tel:3834504346">Enlace a telefono</a>
+<br>
+<a href="https://apiwhatsapp.com/send?phone=3834504346&text=Usuario d tu pagina web -Repaso HTML- quiere contactarse contigo" target="_blank">Enlace a whatsapp</a>
+<br>
+
+<a href="index.html#inicio">👆</a>
+<hr>
+
+<h2 id="Elementos-interactivos">Elementos Interactivos</h2>
+<button>Este es un botón</button><br><br>
+<details>
+    <summary>Titulo del acordeón</summary>
+    <article>
+        <h3>Contenido del acordeón</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti</p>
+        <img src="IMG/poop.gif" alt="poop">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, ducimus?</p>
+    </article>
+</details>
+<hr>
+
+<h2 id="Audio-video">Audio y video</h2>
+<audio src="songs/anime-beginings-139797.mp3" controls></audio><br>
+<video src="songs/videoplayback.mp4" width="300" height="300"  controls preload="auto" poster="IMG/mono.jfif"></video><br>
+
+<a href="index.html#inicio">👆</a>
+<hr>
+
+<h2 id="Iframes">Iframes</h2>
+<iframe src="nuevo-documento.html" frameborder="1"></iframe><br>
+
+<a href="index.html#inicio">👆</a>
+<hr>
+
+<h2 id="Formularios">Formularios</h2>
+<h3>Elementos de formularios</h3>
+<input type="text"><br>
+<input type="checkbox"><br>
+<input type="radio"><br>
+<input type="date"><br>
+<input type="color"><br>
+<input type="button" value="botón"><br>
+<input type="submit"><br>
+<input type="reset"><br>
+<input type="file"><br>
+<input type="file" multiple><br>
+<input type="hidden" name="Idioma" value="es"><br>
+<input type="email"><br>
+<input type="number"><br>
+<input type="tel"><br>
+<input type="password"><br>
+<input type="search"><br>
+
+<a href="index.html#inicio">👆</a>
+<hr>
+
+<h2 id="atributos-de-formularios" >Atributos de los
+    formularios </h2>
+    <input type="text" value="marcoscielo" readonly>
+    <input type="text" value="marcoscielo" disabled><br>
+    <input type="text" placeholder="Escribe tu nombre"><br>
+
+<h3>Atributos dentro de un formulario</h3>
+<h4>Formulario Login</h4>
+<form action="https://tecnologiaeducativaargentina.
+blogspot. com/" target="_ blank">
+    <input type="text" name="usuario">
+    <br>
+    <input type="password" name="contraseña">
+    <input type="submit">
+    <br>
+    <input type="reset">
+</form>
+<!-- https : //tecnologiaeducat ivaargentina .blogspot . com/?
+usuario-Marcoscc&contrase%C3%B1a=123cielo--> <br>
+
+<form action="https://tecnologiaeducativaargentina.blogspot.com/" target="_blank" method="post">
+    <input type="text" name="usuario">
+    <br>
+    <input type="password" name=" contraseña">
+    <input type="submit">
+    <br>
+    <input type="reset">
+</form>
+<!-- https : //tecnologia educativaargentina.blogspot.com/?
+USuarioMarcoscc&contrasežC3%B1a =123cielo -->
+<!-- https: //tecnologiaeducat ivaargentina.blogspot.com/
+-->
+<h4>Selects, Radios y Checkboxs</h4>
+<form>
+    <p>Elige tu idioma: </p>
+    <select name="idioma" >
+        <option value="">Elige una opción</option>
+        <option value="es">Español</option>
+        <option value="en">Inglés</option>
+        <option value="fr">Francés</option>
+        <option value="it ">Italiano</opt ion >
+        <option value="pt"> Portugués</option>
+</select>
+<input type="submit">
+<input type="reset">
+</form>
+    <p>Elige tu lenguaje de programación favorito</p>
+    <input type="radio" name="lenguaje" id="radio-js" value="js">
+    <label for="radio-js">JavaScript </label>
+    <input type="radio" name="lenguaje" id="radio-py" value="py">
+    <label for="radio-py">Python</label>
+    <input type="radio" name="lenguaje" id="radio-php" value="php">
+    <label for="radio-php">PHP</label>
+    <input type="submit">
+    <input type="reset">
+
+    <p>Elige tus intereses:</p>
+    <label>
+        <input type="checkbox" name="intereses" value="educacion">
+Educación
+    </label>
+    <label>
+        <input type="checkbox" name="intereses" value="tecnologia">
+Tecnología
+    </label>
+    <label>
+        <input type="checkbox" name="intereses" value="deportes">
+Deportes
+    </label>
+        <input type="submit">
+        <input type="reset">
+</form><br>
+
+<h4>Formulario de contacto</h4>
+<form action="">
+<input type="text" name="nombre" placeholder="Escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+title="El nombre solo acepta letras y espacios en
+blanco" required><br>
+<input type="text" name="correo" placeholder="Escribe
+tu correo electrónico" pattern="^(\W+[/./-]?) {1,}@
+[a-z]+[/.]\W{2,)$" title="Formato de correo inválido"
+required><br>
+<textarea name="comentarios" cols="30" row5="10"
+required></textarea><br>
+<input type="submit">
+</form><br>
+
+<link rel="canonical" href="https://tudominio.com/la-url-canonica">
+<link rel="con" href="img"> <!--computadoras-->
+<link rel="apple-touch-icon" href="img"> <!--celulares-->
+
+<script>
+    console.log("Hola, estamos aprendiendo HTML")
+</script>
+<Script src="JS/codigo.js"></Script>
+</body>
+</html>
